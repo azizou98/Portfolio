@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const skills = () => {
+const Skills = () => {
   return (
     <header>
       <h1>here are my skills</h1>
@@ -12,4 +12,4 @@ const skills = () => {
   );
 };
 
-export default skills;
+export default Skills;
