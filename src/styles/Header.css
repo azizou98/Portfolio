@@ -1,0 +1,44 @@
+/* header.css */
+
+.Container {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+  }
+  
+  
+.RoundImageContainer {
+    position: relative;
+    width: 110px;       /* Adjust the width as needed */
+    height: 110px;      /* Adjust the height as needed */
+    overflow: hidden;   /* Hide anything outside the container */
+    border-radius: 69%;  /* Creates a circular mask */
+
+ /* Adjust the spacing between image and text */
+    margin-right: 45%;   
+    
+       /* Media query for responsiveness */
+   @media (max-width: 800px) {
+    margin-right: 15%; /* Adjust for smaller screens */
+  }
+    margin-left: 5%;
+  }
+
+  .RoundImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 5px 21%;
+  }
+  
+  .Text {
+    position: relative;
+    text-align: right;
+    margin-right: 9%;
+  }
+
+
+
+  
